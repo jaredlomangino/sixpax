@@ -5,5 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>6Pack</title>
   </head>
-  <body></body>
+  <body>
+    <section class="instructions">
+      <div>
+        <ol>
+          <li>
+            Enter how long you would like your workout to be in minutes. <br />
+            We recommend something between 5-20 minutes.
+          </li>
+          <li>
+            Your workout will be randomly generated based on the time specified.
+          </li>
+          <li>
+            Select the number of circuits you would like to complete. <br />
+            i.e. if your workout is 5 minutes and you select 2 circuits, <br />
+            you will perform those 5 exercises twice for a total of 10 minutes.
+          </li>
+          <li>
+            Each exercise will be performed for 45 seconds, followed by a 15
+            second rest.
+          </li>
+          <li>
+            Once complete, you may save your workout by clicking the save
+            button. Enjoy!
+          </li>
+        </ol>
+        <a href="#">View All Exercises</a>
+        <form>
+          <label for="">Workout Duration: (minutes)</label>
+          <input type="number" step="1" min="5" max="30" />
+        </form>
+        <form>
+          <label for="">Circuits</label>
+          <input type="number" step="1" min="1" max="10" />
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
