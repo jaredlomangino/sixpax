@@ -21,7 +21,8 @@ body {
   margin: 0;
 }
 
-#countdown {
+#countdown,
+#exercise-name {
   font-size: 24px;
   color: #fff;
 }
